@@ -1,0 +1,19 @@
+{
+"version": "0.0.0",
+	"private": true,
+	"name": "diy",
+	"description": "diy",
+	"repository": "https://github.com/andrewsmedina/diy",
+	"license": "BSD",
+	"devDependencies": {
+		"karma": "~0.10",
+		"http-server": "^0.6.1",
+		"bower": "^1.3.1",
+		"shelljs": "^0.2.6"
+	},
+	"scripts": {
+		"postinstall": "bower install",
+		"start": "http-server -p 8000",
+		"test": "karma start test/karma.conf.js"
+	}
+}
