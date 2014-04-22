@@ -7,3 +7,6 @@ diyControllers.controller('TemplateListCtrl', ['$scope', function($scope) {
 		{"name": "Pub and Bar"}
 	];
 }]);
+
+diyControllers.controller('SiteNewCtrl', ['$scope', function($scope) {
+}]);

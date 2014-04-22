@@ -9,3 +9,7 @@ describe('TemplateList', function() {
 		expect(scope.templates.length).toBe(1);
 	}));
 });
+
+describe('SiteNewCtrl', function() {
+	beforeEach(module('diyApp'));
+});
