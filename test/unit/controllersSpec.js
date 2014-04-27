@@ -13,3 +13,7 @@ describe('TemplateList', function() {
 describe('SiteNewCtrl', function() {
 	beforeEach(module('diyApp'));
 });
+
+describe('PreviewCtrl', function() {
+	beforeEach(module('diyApp'));
+});

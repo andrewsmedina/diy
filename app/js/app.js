@@ -14,6 +14,10 @@ diyApp.config(['$routeProvider', function($routeProvider) {
 		templateUrl: 'partials/site-new.html',
 		controller: 'SiteNewCtrl'
 	}).
+	when('/site/preview', {
+		templateUrl: 'partials/preview.html',
+		controller: 'PreviewCtrl'
+	}).
 	otherwise({
 		redirectTo: '/templates'
 	});

@@ -10,3 +10,6 @@ diyControllers.controller('TemplateListCtrl', ['$scope', function($scope) {
 
 diyControllers.controller('SiteNewCtrl', ['$scope', function($scope) {
 }]);
+
+diyControllers.controller('PreviewCtrl', ['$scope', function($scope) {
+}]);
